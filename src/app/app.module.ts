@@ -5,15 +5,16 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ActualProjectsComponent } from './actual-projects/actual-projects.component';
-import { PastProjectsComponent } from './past-projects/past-projects.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { ImageModalComponent } from './image-modal/image-modal.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { InfoProjectComponent } from './info-project/info-project.component';
 
 
 @NgModule({
@@ -21,15 +22,16 @@ import { ImageModalComponent } from './image-modal/image-modal.component';
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    ActualProjectsComponent,
-    PastProjectsComponent,
     ContactUsComponent,
     WhoWeAreComponent,
-    ImageModalComponent
+    ImageModalComponent,
+    ProjectsComponent,
+    InfoProjectComponent
   ],
   imports: [
     AppRouting,
     BrowserModule,
+    HttpClientModule,
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
     ModalModule.forRoot(),

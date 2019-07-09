@@ -1,0 +1,29 @@
+<div *ngIf="!isLoading" class="container info">
+  <div class="col-12">
+    <table class="table text-center">
+      <thead>
+        <tr>
+          <th scope="col">Nombre del Proyecto</th>
+          <th scope="col">Trimestre Inicio</th>
+          <th scope="col">Actual</th>
+          <th scope="col">Detalles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let project of projects">
+          <th scope="row">{{ project.name }}</th>
+          <td>{{ project.period }}</td>
+          <td>
+            <i *ngIf="project.current" class="fa fa-check-square"></i>
+            <i *ngIf="!project.current" class="fa fa-square"></i>
+          </td>
+          <td>
+            <a class="nav-link" [routerLink]="'/info-proyecto/' + project.id"
+              >Ver Más</a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

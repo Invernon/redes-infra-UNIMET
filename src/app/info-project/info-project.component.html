@@ -1,0 +1,56 @@
+<ng-container *ngIf="!isLoading"
+  ><!--First project-->
+
+  <div
+    class="container-fluid p-3 mb-5"
+    style="width: 80vw; background-color: whitesmoke; border-radius: 4px"
+  >
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="col-12" style="margin: 1pc;">
+          <h5>{{ project.name }}</h5>
+          <h5>{{ project.period }}</h5>
+        </div>
+
+        <div class="col-12">
+          <img
+            class="shadow-lg border border-dark project-image"
+            [src]="project.portrate"
+          />
+        </div>
+      </div>
+      <div class="col-12 col-md-8">
+        <div class="container">
+          <h3 style="margin-bottom: 5vh; margin-top: 10vh">
+            Acerca del proyecto:
+          </h3>
+          <h5 style="margin-bottom: 4vh">
+            {{ project.description }}
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <!--GALERÍA-->
+
+    <div class="col-12">
+      <div class="gallery-container">
+        <ng-container *ngFor="let image of project.images">
+          <img
+            class="gallery-item ml-0"
+            [src]="image"
+            (click)="imageZoom(image)"
+          />
+        </ng-container>
+      </div>
+    </div>
+
+    <!--FIN GALERÍA-->
+
+    <app-image-modal
+      *ngIf="showZoom"
+      [image]="srcImageZoom"
+      (closeZoom)="closeZoom($event)"
+    ></app-image-modal>
+  </div>
+</ng-container>

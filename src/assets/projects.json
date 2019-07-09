@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Jornada de Reciclaje - UNIMET.",
+    "period": "1718-02",
+    "current": false,
+    "description": "Se llevó a cabo un proceso de reciclaje de materiales de los principales departamentos de las escuelas de la Universidad Metropolitana. Durante esta jornada se realizaron labores de clasificación de los materiales para luego ser entregados a las compañias de reciclaje.",
+    "portrate": "../../assets/images/Uni1.jpg",
+    "images": [
+      "../../assets/images/Uni2.jpg",
+      "../../assets/images/Uni3.jpg",
+      "../../assets/images/Uni4.jpg",
+      "../../assets/images/Uni5.jpg",
+      "../../assets/images/Uni6.jpg",
+      "../../assets/images/Uni8.jpg",
+      "../../assets/images/Uni9.jpg"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Visita a la U.E. Colegio Manuel Piar",
+    "period": "1718-02",
+    "current": false,
+    "description": "Se realizó una visita a la Unidad Educativa Colegio Manuel Piar para la evaluación de las condiciones en las que se encontraban la infraestructura del lugar, para así poder realizar un diagnóstico acerca de sus necesidades.",
+    "portrate": "../../assets/images/Colegio1.jpg",
+    "images": [
+      "../../assets/images/Colegio2.jpg",
+      "../../assets/images/profesor.jpg",
+      "../../assets/images/Colegio4.jpg",
+      "../../assets/images/Colegio5.jpg",
+      "../../assets/images/Colegio6.jpg",
+      "../../assets/images/Colegio7.jpg",
+      "../../assets/images/Colegio8.jpg",
+      "../../assets/images/Colegio6.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Parque La Mansión",
+    "period": "1718-02",
+    "description": "El PROYECTO REDES desarrolla un Plan que como instrumento rector propone definir las acciones, actividades y lineamientos básicos para el uso del parque con el fin de atender las solicitudes elevadas por los actores de la comunidad considerando las densidades e intensidades de uso como condicionantes de la propuesta, asi como las disposiciones legales y reglamentarias aplicables. El objetivo del Plan esta orientado a impulsar acciones de corresponsabilidad en el uso y defensa del parque como un espacio público que comprometa tanto a las comunidades vecinas como a las autoridades del municipio Chacao.",
+    "current": false,
+    "portrate": "../../assets/images/ParqueLaMansion.jpeg",
+    "images": [
+      "../../assets/images/parque1.jpg",
+      "../../assets/images/parque2.jpg",
+      "../../assets/images/parque5.jpg",
+      "../../assets/images/parque6.jpg",
+      "../../assets/images/parque7.jpg",
+      "../../assets/images/parque8.jpg",
+      "../../assets/images/parque9.jpg",
+      "../../assets/images/parque10.jpg",
+      "../../assets/images/parque11.jpg",
+      "../../assets/images/parque12.jpg",
+      "../../assets/images/parque13.jpg",
+      "../../assets/images/parque14.jpg",
+      "../../assets/images/parque15.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Parque Humboldt",
+    "period": "1819-02",
+    "current": true,
+    "description": "El PROYECTO REDES desarrolla un Plan que como instrumento rector propone definir las acciones, actividades y lineamientos básicos para el uso del parque con el fin de atender las solicitudes elevadas por los actores de la comunidad considerando las densidades e intensidades de uso como condicionantes de la propuesta, asi como las disposiciones legales y reglamentarias aplicables. El objetivo del Plan esta orientado a impulsar acciones de corresponsabilidad en el uso y defensa del parque como un espacio público que comprometa tanto a las comunidades vecinas como a las autoridades del municipio Chacao.",
+    "portrate": "../../assets/images/humboldt0.jpg",
+    "images": [
+      "../../assets/images/humboldt1.jpeg",
+      "../../assets/images/humboldt2.jpeg",
+      "../../assets/images/humboldt3.jpeg",
+      "../../assets/images/humboldt4.jpeg",
+      "../../assets/images/humboldt5.jpeg",
+      "../../assets/images/grupo1.jpeg",
+      "../../assets/images/grupo2.jpeg",
+      "../../assets/images/grupo4.jpeg",
+      "../../assets/images/grupo6.jpeg"
+    ]
+  }
+]
