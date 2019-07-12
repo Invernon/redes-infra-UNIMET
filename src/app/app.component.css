@@ -3,11 +3,6 @@
 }
 
 .body {
-  background-color: rgb(112, 112, 112);
-  background-image: url("../assets/images/grey-pattern2.jpg");
-  background-repeat: repeat;
-  background-blend-mode: multiply;
-  /* background-size: cover; */
   min-height: 90vh;
   height: 100%;
   padding-bottom: 5vh;

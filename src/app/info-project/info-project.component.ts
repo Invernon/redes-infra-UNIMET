@@ -14,7 +14,7 @@ export class InfoProjectComponent implements OnInit {
   public srcImageZoom: string = '';
   public project: any;
 
-  private isLoading: boolean;
+  public isLoading: boolean;
   public projects: any;
 
   constructor(private http: HttpClient, private activatedRoute: ActivatedRoute) { }

@@ -4,6 +4,7 @@ import { ProjectsComponent } from '../projects/projects.component';
 import { InfoProjectComponent } from '../info-project/info-project.component';
 import { WhoWeAreComponent } from '../who-we-are/who-we-are.component';
 import { ContactUsComponent } from '../contact-us/contact-us.component';
+import { ComunidadesComponent } from '../comunidades/comunidades.component';
 
 
 
@@ -13,6 +14,7 @@ const appRoutes: Routes = [
   { path: 'proyectos', component: ProjectsComponent },
   { path: 'info-proyecto/:id', component: InfoProjectComponent },
   { path: 'quienes-somos', component: WhoWeAreComponent },
+  { path: 'comunidades', component: ComunidadesComponent },
   { path: 'contactanos', component: ContactUsComponent },
 ];
 

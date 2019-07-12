@@ -15,6 +15,7 @@ import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { ImageModalComponent } from './image-modal/image-modal.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { InfoProjectComponent } from './info-project/info-project.component';
+import { ComunidadesComponent } from './comunidades/comunidades.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { InfoProjectComponent } from './info-project/info-project.component';
     WhoWeAreComponent,
     ImageModalComponent,
     ProjectsComponent,
-    InfoProjectComponent
+    InfoProjectComponent,
+    ComunidadesComponent
   ],
   imports: [
     AppRouting,

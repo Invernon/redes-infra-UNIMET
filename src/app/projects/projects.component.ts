@@ -8,7 +8,7 @@ import { first } from 'rxjs/operators/first';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  private isLoading: boolean;
+  public isLoading: boolean;
   public projects: any;
 
   constructor(private http: HttpClient) { }
